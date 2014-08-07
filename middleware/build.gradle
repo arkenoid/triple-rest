@@ -29,6 +29,8 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+	compile 'commons-codec:commons-codec:1.9'
+
     testCompile("junit:junit")
 }
 
