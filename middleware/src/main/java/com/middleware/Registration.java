@@ -17,4 +17,10 @@ public class Registration {
     public String getContent() {
         return content;
     }
+
+	@Override
+	public String toString() {
+		return "Registration [id=" + id + ", content=" + content + "]";
+	}
+    
 }
